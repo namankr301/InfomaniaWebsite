@@ -1,0 +1,129 @@
+#block{
+  padding-left: 6rem;
+  padding-right: 6rem;
+
+}
+
+a{
+  color: black;
+}
+
+/* navbar  */
+#nav-bar{
+  /* margin-left: 6rem;
+  margin-right: 6rem; */
+  padding: 1rem;
+  font-size: 24px;
+}
+/* .brand-name{
+  padding-left: 0.5rem;
+} */
+.top-nav{
+  padding-left: 2rem;
+}
+
+
+
+/* Sticky Navbar */
+
+#nav_sticky{
+
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  padding: 0;
+  margin-bottom: 0;
+}
+
+#navbar_sticky{
+  /* padding-left: 6rem;
+  padding-right: 6rem; */
+  margin: 0;
+
+
+}
+
+.navstick{
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+
+/* top section */
+
+/* #fir-banner{
+  padding-bottom: 100px;
+} */
+
+
+
+
+
+/* middle container */
+
+#home-middle{
+  margin-left: 10px;
+  /* padding-bottom: 100px; */
+}
+
+.author{
+  font-size: 0.75rem;
+  margin-top: 0.5rem;
+}
+.author p{
+  margin-bottom: 0;
+}
+
+
+.Editor-middle{
+  padding-bottom: 2rem;
+}
+
+.middle{
+  margin-left: 1rem;
+}
+
+.row{
+  margin-bottom: 1rem;
+}
+
+
+.all-trends a{
+  color: green;
+}
+
+/* 2nd banner */
+
+/* #sec-banner{
+  padding-bottom: 100px;
+} */
+
+
+/* lower middle */
+
+#lower-middle{
+  padding-bottom: 100px;
+
+}
+
+
+
+
+/* bottom */
+
+/* #bottom{
+  padding-bottom: 200px;
+} */
+
+
+
+
+/* About Us */
+
+.follow{
+  margin-left: 2rem;
+}
+
+section{
+  padding-bottom: 100px;
+}

@@ -1,0 +1,26 @@
+<%- include('partials/header'); -%>
+
+<h1><%= categoryName %></h1>
+
+<section id="services">
+  <div class="container">
+    <div class="row">
+
+
+<% newListItems.forEach(function(post){ %>
+<div class="col-md-6 col-lg-4 col-sm-12 service-card">
+         <div class="card" style="width: 18rem;">
+           <img class="card-img-top" src="/uploads/<%=post.image%>" alt="Card image cap" width="200px" height="200px" >
+           <div class="card-body">
+             <a href="/<%= categoryName %>/<%= post._id%>"><h3 > <%= post.title %></h3></a>
+             <p class="card-text"><%= post.content.substring(0,100)+" ..." %></p>
+           </div>
+         </div>
+       </div>
+<% }) %>
+</div>
+
+</div>
+</section>
+
+<%- include('partials/footer'); -%>
